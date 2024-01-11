@@ -1,0 +1,28 @@
+{
+    "name": "runner",
+    "version": "3.0.0",
+    "description": "Mocha tests",
+    "private": true,
+    "author": "Matty Hoban",
+    "main": "",
+    "repository": {
+        "type": "git",
+        "url": "git-repo-goes-here"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "exit": "^0.1.2",
+        "lodash": "^4.17.10",
+        "mocha": "^5.2.0",
+        "sinon": "^5.1.0"
+    },
+    "scripts": {
+        "lint": "",
+        "test": "node node_modules/mocha/bin/mocha node_modules/sudoku/sudoku.js --reporter reporter.js"
+    },
+    "dependencies": {
+        "chai": "^4.2.0",
+        "chai-arrays": "^2.0.0",
+        "chai-sorted": "^0.2.0"
+    }
+}
